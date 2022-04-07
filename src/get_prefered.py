@@ -19,3 +19,4 @@ def get_prefered(task_1, task_2):
         return task_1
     elif task_1.description == "Wash Clothes" and task_2.description == "Clean Windows":
         return task_1
+    return task_2
